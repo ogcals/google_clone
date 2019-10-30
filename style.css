@@ -1,0 +1,162 @@
+
+body{
+    padding: 0;
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
+.clear-float{
+    clear: both;
+}
+
+
+
+/* ----------------------------- Navigation-Sect -------------------------------------- */
+
+nav{
+    margin: 0 20px;
+    margin-top: 15px;
+}
+
+
+.nav-left{
+    float: left;
+
+}
+
+.nav-right{
+    float: right;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #222;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav i{
+    vertical-align: middle;
+}
+
+#Sign_in_btn{
+    background:-moz-linear-gradient(top,#4387fd,#4683ea);
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+}
+
+/* ----------------------------- Main-Sect -------------------------------------- */
+
+main{
+
+    padding-top: 130px;
+}
+
+main .container{
+    text-align: center;
+}
+
+
+main li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+form{
+    margin: 0;
+}
+
+#search-form{
+    width: 582px;
+}
+
+#search-form{
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    padding: 8px 5px;
+    margin-top: 35px;
+}
+
+#search-form:hover{
+    box-shadow: -0px -0px 7px #cfd1d9;
+}
+
+#search-form div{
+    text-align: left;
+}
+
+#search-form input{
+    border:none;
+}
+
+#search-form i{
+    vertical-align: middle;
+    margin-left: 20px;
+    color: #dfe1e5;
+}
+
+.btn{
+    background-color: #f2f2f2;
+    border-radius: 5px;   
+    display: inline-block;    
+    padding: 10px 22px; 
+    margin: 30px 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #3E40427D;
+    font-weight: bold;
+}
+
+.btn:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+/* ----------------------------- Footer-Sect -------------------------------------- */
+
+footer{
+    background-color:#f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+footer .nav-right{
+   padding-right: 20px;
+}
+
+footer a{
+    line-height: 40px;
+    text-decoration: none;
+    color:rgba(0,0,0,.54);
+    padding-left: 20px;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer li{
+    display: inline-block;
+}
+
+.ftr-border{
+    border: 1px solid #e4e4e4;
+}
